@@ -70,12 +70,12 @@ Các yêu cầu được gửi dưới dạng JSON với các hành động: get
 
 
 
-Lưu ý
+# Lưu ý
 
 Cơ sở dữ liệu SQLite (todos.db) được tạo tự động trong thư mục dự án khi ứng dụng khởi động.
 Server chạy trên cổng 12345.
 GUI sử dụng socket để giao tiếp với server, vì vậy server phải đang chạy để GUI hoạt động bình thường.
 Ứng dụng sử dụng threading để chạy server socket và GUI PyQt5 đồng thời. Server chạy trong một luồng daemon để đảm bảo nó kết thúc khi GUI đóng.
 
-Giấy phép
+# Giấy phép
 Dự án này được tạo với mục đích học tập và không được cấp phép để sử dụng trong môi trường sản xuất.
